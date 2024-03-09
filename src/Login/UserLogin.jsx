@@ -25,7 +25,7 @@ const UserLogin = () => {
         if (response.data.success) {
           alert('Login successful');
           console.log(response.data);
-          navigate('/eprofile');
+          navigate('/dash');
         } else {
           setError('Invalid EMP ID or Password. Please try again.');
           console.log(response.data);

@@ -45,7 +45,7 @@ const Myprofile = (props) => {
     <Sidebar/>  
    
       <div className="profile-box">
-      <h1 >User Profile</h1>
+      <h1 >HR PROFILE</h1>
 
       <div className="profile-details">
         <div>

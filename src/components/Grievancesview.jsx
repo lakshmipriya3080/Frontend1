@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { Paper, Table, TableBody, TableCell, TableContainer, TableRow } from '@mui/material';
 import Sidebar from '../Sidebar/Sidebar';
 
-const Grievancesview = (props) => {
+const Grievancesview = () => {
     var[grievance,setgrievance] = useState([]);
 //    var[selected,setSelected] = useState();
     useEffect(()=>{

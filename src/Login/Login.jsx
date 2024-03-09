@@ -84,7 +84,7 @@ const Login = () => {
          <p className='bb'> <AdminPanelSettingsSharpIcon color='primary' fontSize='large'/></p>
           
           
-      <h1 align='center'>ADMIN LOGIN</h1>
+      <h1 align='center'>HR LOGIN</h1>
        <TextField  margin="normal" required fullWidth id="HR ID" label="HR ID" name="id" 
                 autoComplete="id"  autoFocus  value={hrid}
                 onChange={(e) => setHrId(e.target.value)} /><br/>

@@ -26,7 +26,6 @@ const Employeedetails = (props) => {
     axios.post("http://localhost:4005/new2/",employees)
     .then((response) =>{
     alert("Record Saved")
-    navigate('/Employeeview')
     })
     .catch(err=>console.log(err))
     }

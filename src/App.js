@@ -22,12 +22,14 @@ import Viewtraining from "./components/Viewtraining";
 import Trainingedit from "./components/Trainingedit";
 import Rulesr from "./Employeeside/Rules/Rulesr";
 import Grievances from "./Employeeside/Grivances/Grivances";
-import Leavemanagement from "./Employeeside/Leave/Leavemanagement";
 import Profile from "./Employeeside/Profile/Profile";
 import Homee from "./Employeeside/Homee";
 import UserSidebar from "./components/UserSidebar";
 import Userdashboard from "./components/Userdashboard";
 import Grievancesview from "./components/Grievancesview";
+import LeaveRequestForm from "./Employeeside/Leave/LeaveRequestForm";
+import LeaveRequests from "./components/LeaveRequests";
+import LeaveView from "./Employeeside/Leave/LeaveView";
 
 
 
@@ -53,6 +55,7 @@ function App() {
       <Route path="userdashboard" element={<Userdashboard />}></Route>
       <Route path="Myprofile" element={<Myprofile/>}></Route>
       <Route path="grievanceview" element={<Grievancesview/>}></Route>
+      <Route path="leavereq" element={<LeaveRequests/>}></Route>
       <Route path="Employeedetails" element={<Employeedetails/>}></Route>
       <Route path="Employeeview" element={<Employeeview/>}></Route>
       <Route path="Employeeedit" element={<EmployeeEdit/>}></Route>
@@ -60,8 +63,10 @@ function App() {
       <Route path="Viewtraining" element={<Viewtraining/>}></Route>
       <Route path="Trainingedit" element={<Trainingedit/>}></Route>
       
+      <Route path="dash" element={<Dashboard/>}></Route>
       <Route path="eprofile" element={<Profile/>}></Route>
-      <Route path="leave" element={<Leavemanagement/>}></Route>
+      <Route path="leave" element={<LeaveRequestForm/>}></Route>
+      <Route path="leaveview" element={<LeaveView/>}></Route>
       <Route path="grievances" element={<Grievances/>}></Route>
       <Route path="rules" element={<Rulesr/>}></Route>
       

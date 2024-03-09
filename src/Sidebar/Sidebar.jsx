@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import 
 {BsPersonGear,BsGrid1X2Fill,  BsPersonFillCheck, BsPeopleFill, 
-    BsPersonVcard,BsCardText }
+    BsPersonVcard,BsCardText,BsCalendar2Check }
  from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom';
 import Collapse from '@mui/material/Collapse';
@@ -66,6 +66,11 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             <li className='sidebar-list-item'>
                 <a href="/grievanceview">
                     <BsCardText className='icon'/> View Grievances
+                </a>
+            </li>
+            <li className='sidebar-list-item'>
+                <a href="/leavereq">
+                    <BsCalendar2Check className='icon'/> Leave Management
                 </a>
             </li>
             <li className='sidebar-list-item'>

@@ -4,7 +4,7 @@ import UserSidebar from '../../components/UserSidebar';
 
 
 
-const Grievances = (props) => {
+const Grievances = () => {
 
   return (
     <div className='grid-container'>

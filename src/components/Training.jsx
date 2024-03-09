@@ -8,7 +8,7 @@ import Sidebar from '../Sidebar/Sidebar';
 
 
 
-const Training = (props) => {
+const Training = () => {
 
   var [training,settraining]=useState({"idd":'',"ename":'',"age":'',"completed":'true',"remarks":''})
 
@@ -24,7 +24,6 @@ const Training = (props) => {
     axios.post("http://localhost:4005/new/",training)
     .then((response) =>{
     alert("Record Saved")
-    navigate('/Viewtraining')
     })
     .catch(err=>console.log(err))
     }
