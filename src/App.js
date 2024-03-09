@@ -8,14 +8,11 @@ import LoginCard from "./Login/LoginCard";
 import Login from "./Login/Login";
 import UserLogin from "./Login/UserLogin";
 
-import Header from "./components/Header";
-import Sidebar from "./Sidebar/Sidebar";
-import { useEffect, useState } from "react";
+
 
 import './App.css';
 import Dashboard from "./components/Dasboard";
 import Navbar from "./Login/Navbar";
-import Home from "./components/Home";
 import Employeeview from "./components/Employeeview";
 import EmployeeEdit from "./components/EmployeeEdit";
 import Viewtraining from "./components/Viewtraining";
@@ -23,8 +20,6 @@ import Trainingedit from "./components/Trainingedit";
 import Rulesr from "./Employeeside/Rules/Rulesr";
 import Grievances from "./Employeeside/Grivances/Grivances";
 import Profile from "./Employeeside/Profile/Profile";
-import Homee from "./Employeeside/Homee";
-import UserSidebar from "./components/UserSidebar";
 import Userdashboard from "./components/Userdashboard";
 import Grievancesview from "./components/Grievancesview";
 import LeaveRequestForm from "./Employeeside/Leave/LeaveRequestForm";
